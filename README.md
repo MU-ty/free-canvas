@@ -1,4 +1,5 @@
-<img width="2048" height="2048" alt="新对话" src="https://github.com/user-attachments/assets/9c773329-65e1-444c-8f1f-fc5e1ab5c0ff" />
+
+<img width="300" height="311" alt="新对话" src="https://github.com/user-attachments/assets/730d4f8e-6eeb-44f2-bcf7-a09da1a650d7" />
 
 # 画布编辑器项目
 
