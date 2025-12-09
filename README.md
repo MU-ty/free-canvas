@@ -1,6 +1,8 @@
+<img width="2048" height="2048" alt="新对话" src="https://github.com/user-attachments/assets/9c773329-65e1-444c-8f1f-fc5e1ab5c0ff" />
+
 # 画布编辑器项目
 
-一个功能完整的在线画布编辑器，类似于 Figma、Canva 等产品，使用 React + TypeScript + PixiJS 开发。
+Free-Canvas 是一款高性能在线画布编辑器，支持流程图、UML、思维导图等多种图形绘制。项目采用 React + TypeScript，结合 Pixi.js 实现极致渲染性能，适合大规模节点场景。
 
 ## 🎯 项目特性
 
