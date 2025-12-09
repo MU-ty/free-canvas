@@ -5,6 +5,9 @@
 
 Free-Canvas 是一款高性能在线画布编辑器，支持多种图形渲染、图形属性更改、支持流程图、UML、md列表等多种图形绘制以及画布交互、元素编辑、调参工具栏等功能。项目采用 React + TypeScript，结合 Pixi.js 实现极致渲染性能，适合大规模节点场景。
 
+<img width="2559" height="1390" alt="image" src="https://github.com/user-attachments/assets/949a6854-d091-440e-8123-18d693f10724" />
+
+
 ## 🎯 项目特性
 
 ### ✅ P0 功能已完成
