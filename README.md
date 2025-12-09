@@ -7,10 +7,13 @@ Free-Canvas 是一款高性能在线画布编辑器，支持多种图形渲染�
 
 <img width="2559" height="1390" alt="image" src="https://github.com/user-attachments/assets/949a6854-d091-440e-8123-18d693f10724" />
 
+画布编辑器外观
 
-## 🎯 项目特性
 
-### ✅ P0 功能已完成
+
+## 画布功能
+
+### ✅P0功能
 
 #### 基础渲染
 - ✅ 支持多种图形渲染：矩形、圆角矩形、圆形、三角形
