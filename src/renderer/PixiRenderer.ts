@@ -43,6 +43,14 @@ export class PixiRenderer {
       this.app.stage.addChild(this.mainContainer);
       // Ensure main container supports z-index ordering
       this.mainContainer.sortableChildren = true;
+      
+      // 强制一次 resize 以确保视口正确
+      this.handleResize();
+
+      if (!this.app.ticker.started) {
+        this.app.ticker.start();
+      }
+
       // Debug: verify extract plugin availability
       try {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -815,6 +823,13 @@ export class PixiRenderer {
     this.clear();
     if (this.app) {
       this.app.destroy(false, { children: true });
+    }
+  }
+
+  // 手动触发渲染
+  public render(): void {
+    if (this.app) {
+      this.app.render();
     }
   }
 }
