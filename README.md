@@ -1,6 +1,7 @@
 <p align="center">
   <img width="300" height="311" alt="新对话" src="https://github.com/user-attachments/assets/730d4f8e-6eeb-44f2-bcf7-a09da1a650d7" style="border: 2px solid #ccc; border-radius: 8px;"/>
 </p>
+
 # 画布编辑器项目
 
 Free-Canvas 是一款高性能在线画布编辑器，支持多种图形渲染、图形属性更改、支持流程图、UML、md列表等多种图形绘制以及画布交互、元素编辑、调参工具栏等功能。项目采用 React + TypeScript，结合 Pixi.js 实现极致渲染性能，适合大规模节点场景。
