@@ -276,11 +276,19 @@ const CanvasViewComponent = forwardRef<CanvasViewHandle, CanvasViewProps>(({
               continue;
             } else {
               const tempElement = { ...element, content: '' };
-              await renderer.renderElement(tempElement as any);
+              try {
+                await renderer.renderElement(tempElement as any);
+              } catch (err) {
+                console.error(`Failed to render temp element ${element.id}:`, err);
+              }
               continue;
             }
           }
-          await renderer.renderElement(element);
+          try {
+            await renderer.renderElement(element);
+          } catch (err) {
+            console.error(`Failed to render element ${element.id}:`, err);
+          }
         }
       } else {
         // 增量更新（只更新位置、旋转等转换属性）
@@ -320,6 +328,11 @@ const CanvasViewComponent = forwardRef<CanvasViewHandle, CanvasViewProps>(({
         if (updatedElements.length > 0 && !cancelled) {
           renderer.updateElementsTransform(updatedElements);
         }
+      }
+
+      // 确保渲染一帧
+      if (!cancelled) {
+        renderer.render();
       }
 
       // 更新 ref
