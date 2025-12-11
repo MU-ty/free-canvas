@@ -491,11 +491,13 @@ npx tsc --noEmit
 - React Hooks 最佳实践
 - 完善的代码注释
 
+<!--
 ## 📞 技术支持
 
 - 📖 查看[完整文档](./PROJECT_SUMMARY.md)
 - 🐛 提交 [Issue](https://github.com/your-repo/issues)
 - 💬 参与讨论
+-->
 
 ## 📄 许可证
 
