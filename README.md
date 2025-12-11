@@ -12,6 +12,11 @@
 
 Free-Canvas 是一款高性能在线画布编辑器，支持多种图形渲染、图形属性更改、支持流程图、UML、md列表等多种图形绘制以及画布交互、元素编辑、调参工具栏等功能。项目采用 React + TypeScript，结合 Pixi.js 实现极致渲染性能，适合大规模节点场景。
 
+![GitHub License](https://img.shields.io/badge/license-MIT-blue)
+![React](https://img.shields.io/badge/React-19-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)
+![PixiJS](https://img.shields.io/badge/PixiJS-8-red)
+
 <div align="center">
   <table>
     <tr>
@@ -22,13 +27,6 @@ Free-Canvas 是一款高性能在线画布编辑器，支持多种图形渲染�
     </tr>
   </table>
 </div>
-
-![GitHub License](https://img.shields.io/badge/license-MIT-blue)
-![React](https://img.shields.io/badge/React-19-blue)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)
-![PixiJS](https://img.shields.io/badge/PixiJS-8-red)
-
-一个功能完整的高性能在线画布编辑器，类似于 Figma、Canva、Excalidraw 等产品。项目使用 React 19 + TypeScript + PixiJS 8 开发，支持流程图、UML 图表、思维导图等多种专业图形绘制。
 
 ### ✨ 核心特色
 
@@ -511,6 +509,7 @@ npx tsc --noEmit
 - [Vite](https://vitejs.dev/) - 下一代前端构建工具
 - [jsPDF](https://github.com/parallax/jsPDF) - PDF 生成库
 
+<!--
 ## 📈 项目统计
 
 - ⭐ Star 数：![Stars](https://img.shields.io/badge/stars-coming%20soon-brightgreen)
@@ -519,6 +518,7 @@ npx tsc --noEmit
 - 📚 文档：6+ 篇详细技术文档
 - 🧪 测试覆盖：核心功能已验证
 - 📊 性能：支持 100+ 元素流畅操作
+-->
 
 ---
 
@@ -526,7 +526,7 @@ npx tsc --noEmit
 
 **[⬆ 回到顶部](#top)**
 
-Made with ❤️ by the Free-Canvas team
+Made with ❤️ by MU-ty
 
 </div>
 
